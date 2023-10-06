@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\example">
+      <UniqueIdentifier>{58ce7f42-84ea-407f-a61e-4b96c5086be3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\通信班">
+      <UniqueIdentifier>{86256d66-3da5-4a45-a95c-48beacee34d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\电信班">
+      <UniqueIdentifier>{d803b96c-0594-43ac-a797-6d68fc0c635b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C_homework1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="shenpeng.c">
+      <Filter>源文件\example</Filter>
+    </ClCompile>
+    <ClCompile Include="lisi.c">
+      <Filter>源文件\example</Filter>
+    </ClCompile>
+    <ClCompile Include="zhangsan.c">
+      <Filter>源文件\example</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="readme.txt">
+      <Filter>源文件</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="func.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

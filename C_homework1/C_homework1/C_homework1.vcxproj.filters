@@ -22,6 +22,12 @@
     <Filter Include="源文件\电信班">
       <UniqueIdentifier>{d803b96c-0594-43ac-a797-6d68fc0c635b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\通信班\通信2301">
+      <UniqueIdentifier>{be6f0ee6-5908-411b-b96f-a96185ddbb3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\通信班\通信2302">
+      <UniqueIdentifier>{e452eccb-9f16-4440-bf75-a4f3ea7fba7c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="C_homework1.c">
